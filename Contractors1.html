@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contractors</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #ff6a00;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+            overflow-y: auto;
+            padding: 40px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+        }
+
+        .contractor-card {
+            background-color: rgba(20, 20, 20, 0.9);
+            border: 1px solid rgba(255, 106, 0, 0.4);
+            box-shadow: 0 0 12px rgba(255, 106, 0, 0.3);
+            border-radius: 12px;
+            margin: 20px;
+            padding: 25px;
+            width: 280px;
+            transition: transform 0.3s ease;
+        }
+
+        .contractor-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 106, 0, 0.6);
+        }
+
+        .name-bubble {
+            font-size: 28px;
+            font-weight: bold;
+            color: #fca311;
+            margin-bottom: 10px;
+        }
+
+        .details {
+            color: #cccccc;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .description {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .hire-button {
+            background-color: #cc2609;
+            color: white;
+            padding: 10px 22px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .hire-button:hover {
+            background-color: #ff3920;
+            transform: scale(1.05);
+        }
+
+        .nav-button {
+            font-size: 28px;
+            color: #fca311;
+            text-decoration: none;
+            margin-top: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-button:hover {
+            transform: scale(1.2);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="contractor-card">
+            <div class="name-bubble">Hera</div>
+            <div class="details">City: Paris, France | Price: $723,500</div>
+            <div class="description">Alias: Goddess of Marriage. Holds the key to untold riches.</div>
+            <a href="Information.html?contractor=Hera" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Thor</div>
+            <div class="details">City: Tokyo, Japan | Price: $876,300</div>
+            <div class="description">Alias: God of Thunder. Strength and leadership in crisis.</div>
+            <a href="Information.html?contractor=Thor" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Zeus</div>
+            <div class="details">City: Sydney, Australia | Price: $934,000</div>
+            <div class="description">Alias: King of the Gods. Wisdom and ruthless power.</div>
+            <a href="Information.html?contractor=Zeus" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Odin</div>
+            <div class="details">City: New York, USA | Price: $612,750</div>
+            <div class="description">Alias: Allfather. Ancient arts and realm protection.</div>
+            <a href="Information.html?contractor=Odin" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Athena</div>
+            <div class="details">City: London, UK | Price: $550,100</div>
+            <div class="description">Alias: Goddess of Wisdom. Elite mind for elite ops.</div>
+            <a href="Information.html?contractor=Athena" class="hire-button">Hire</a>
+        </div>
+
+    </div>
+
+    <a href="Contractors2.html" class="nav-button">➡</a>
+
+</body>
+</html>

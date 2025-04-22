@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contractors</title>
+    <style>
+        body {
+            background-color: #0f0f0f;
+            color: #ff6a00;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+            overflow-y: auto;
+            padding: 40px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+        }
+
+        .contractor-card {
+            background-color: rgba(20, 20, 20, 0.9);
+            border: 1px solid rgba(255, 106, 0, 0.4);
+            box-shadow: 0 0 12px rgba(255, 106, 0, 0.3);
+            border-radius: 12px;
+            margin: 20px;
+            padding: 25px;
+            width: 280px;
+            transition: transform 0.3s ease;
+        }
+
+        .contractor-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 106, 0, 0.6);
+        }
+
+        .name-bubble {
+            font-size: 28px;
+            font-weight: bold;
+            color: #fca311;
+            margin-bottom: 10px;
+        }
+
+        .details {
+            color: #cccccc;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .description {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .hire-button {
+            background-color: #cc2609;
+            color: white;
+            padding: 10px 22px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .hire-button:hover {
+            background-color: #ff3920;
+            transform: scale(1.05);
+        }
+
+        .nav-button {
+            font-size: 28px;
+            color: #fca311;
+            text-decoration: none;
+            margin-top: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-button:hover {
+            transform: scale(1.2);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="contractor-card">
+            <div class="name-bubble">Nova</div>
+            <div class="details">City: Barcelona, Spain | Price: $845,000</div>
+            <div class="description">Alias: Apollo, God of the Sun. A radiant leader lighting the path to success.</div>
+            <a href="Information.html?contractor=Nova" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Leo</div>
+            <div class="details">City: Berlin, Germany | Price: $923,700</div>
+            <div class="description">Alias: Ares, God of War. Fierce in battle with brilliant strategy.</div>
+            <a href="Information.html?contractor=Leo" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Selene</div>
+            <div class="details">City: Rome, Italy | Price: $987,400</div>
+            <div class="description">Alias: Artemis, Goddess of the Moon. A graceful protector of balance.</div>
+            <a href="Information.html?contractor=Selene" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Orion</div>
+            <div class="details">City: Los Angeles, USA | Price: $680,500</div>
+            <div class="description">Alias: Poseidon, God of the Sea. Commands the tides with silent power.</div>
+            <a href="Information.html?contractor=Orion" class="hire-button">Hire</a>
+        </div>
+
+        <div class="contractor-card">
+            <div class="name-bubble">Freya</div>
+            <div class="details">City: Oslo, Norway | Price: $762,200</div>
+            <div class="description">Alias: Venus, Goddess of Love. Blends charm, chaos, and command.</div>
+            <a href="Information.html?contractor=Freya" class="hire-button">Hire</a>
+        </div>
+
+    </div>
+
+    <a href="Contractors1.html" class="nav-button">⬅</a>
+
+</body>
+</html>
